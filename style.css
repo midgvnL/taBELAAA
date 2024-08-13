@@ -1,0 +1,43 @@
+body{
+
+    background-color: rgb(255, 202, 214);
+}
+.tabela{
+    
+    margin: 0 auto;
+}
+
+#theader, #seg, #ter, #qua, #qui, #sex  {
+    background-color: rgb(244, 136, 206);
+    padding: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    align-items: center;
+    border-radius: 60%;
+    width: 110px;
+    padding: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

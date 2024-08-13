@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+<body>
+    <h1 style="color: goldenrod;">TABELAS</h1>
+    <table>
+        <tr>
+            <th>ITEM</th>
+            <th>PREÇO</th>
+            <TH>QUANTIDADE</TH>
+
+        </tr>
+
+        <TR>
+            <TD>ITEM 1</TD><!--PARA FORMA AS COLUNAS-->
+            <TD>%10</TD>
+            <TD>2</TD>
+
+        </TR>
+
+        <TR>
+            <TD>ITEM 2</TD>
+            <TD>14$</TD>
+            <TD>3</TD>
+        </TR>
+    </table>
+    <!--TABELA COM BORDA-->>
+    <H1 style="color: cornflowerblue;">TABELA DE ALUNOS</H1>
+    <table border="1"> <!--borda da tabela-->
+        <thead>
+            <th>NOME</th>
+            <th>IDADE</th>
+            <th>NOTA</th>
+        </thead>
+        <tbody> <!--Tbody é o espaço onde são colocadas as linhas dos detalhes de dados em uma tabela-->
+            <tr><!--A etiqueta <tr> que sginifica table row é usada para definir -->
+                <td>CAUE</td>
+                <td>19</td>
+                <td>8,5</td>
+            </tr>
+
+            <tr>
+                <td>LUCAS</td>
+                <td>20</td>
+                <td>9,0</td>
+            </tr>
+
+            <tr>
+                <td>KAUAN</td>
+                <td>22</td>
+                <td>6,0</td>
+            </tr>
+
+            <tr>
+                <td>OTAVIO</td>
+                <td>24</td>
+                <td>8,0</td>
+
+            </tr>
+
+            <tr>
+                <td>GUILHERME</td>
+                <td>19</td>
+                <td>8,0</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!--exemplo colspan e rowspan. As propriedades colspan e rowspan são usadas nas celulas de uma tabela HTML para combinar varias colunas ou linhas, respectivamente. Elas são aplicadas as tags <th> ou <td>-->
+
+        <table border="2">
+            <tr>
+                <th colspan="3">cabeçalho abrangendo 3 colunas</th>
+            </tr>
+        </table>
+
+        <table border="2"> <!--o atributo colspan serve para unir as celulas na linha-->
+            <thead>
+                <tr>
+                    <th>HORARIO</th>
+                    <th>seg</th>
+                    <th>ter</th>
+                    <th>qua</th>
+                    <th>qui</th>
+                    <th>sex</th>
+                </tr>
+            </thead>
+        
+        <tbody>
+            <tr>
+                <td>8h-9h</td>
+                <td rowspan="2">Mat</td><!--o atributo rowspan serve para unir as celulas da coluna-->
+                <td>port</td>
+                <td>his</td>
+                <td>geo</td>
+                <td>bio</td>
+            </tr>
+            <tr>
+                <td>9h-10h</td>
+                <td>Ed</td>
+                <td>Qui</td>
+                <td rowspan="2">Fis</td>
+                <td>art</td>
+            </tr>
+
+            <tr>
+                <td>10h-11h</td>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td rowspan="2">Port</td>
+                <td>Qui</td>
+
+            </tr>
+
+            <tr>
+                <td>11h-12h</td>
+                <td>Bio</td>
+                <td>Qui</td>
+                <td>Filo</td>
+                <td>Soc</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
